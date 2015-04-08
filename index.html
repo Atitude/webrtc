@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Teste Djow</title>
+	<script src="lib/peer.js"> </script>
+  <script src="lib/jquery-2.1.3.min.js"></script>
+  <script src="peerClient.js"></script>
+	
+	
+</head>
+<body>
+	<p>Seu ID: </p>
+	<p id="my-id"></p>
+
+	<h1>Hosts conectados:</h1>
+	<form action="">
+		<select name="users" id="users">
+			
+		</select>
+		<input type="button" value='Atualizar' onclick='atualiza()'/>
+		<input type="button" value="Conectar" id='ligar' />
+	</form>
+	<audio autoplay id="my-audio" controls></audio>
+	<audio autoplay id="their-audio" controls></audio>
+</body>
+</html>
